@@ -53,6 +53,21 @@ const Pricing = () => {
         "Accès à tous les types de cours"
       ],
       popular: false
+    },
+
+    // pack un cours 35 DT
+    { 
+
+      title: "Pack de 01 Cours",
+      subtitle: "Tout accès",
+      price: "35 DT",
+      description: "Pour ceux qui souhaitent essayer un cours unique.",
+      features: [
+        "1 cours inclus",
+        "Validité : 7 jours",
+        "Accès à tous les types de cours"
+      ],
+      popular: false
     }
   ];
 

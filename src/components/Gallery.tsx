@@ -4,25 +4,41 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 const Gallery = () => {
   const images = [
     {
-      src: "/lovable-uploads/83dfd0ff-3065-4fdc-b97a-e09be7a4e6e0.png",
+      src: "/lovable-uploads/1.jpg",
       alt: "Séance Reformer - Étirement latéral",
       category: "Reformer"
     },
-    {
-      src: "/lovable-uploads/f18486a3-e470-4da4-8c60-624a4d0d0398.png",
+       {
+      src: "/lovable-uploads/7.jpg",
       alt: "Cours de Pilates en groupe",
       category: "Cours en groupe"
     },
     {
-      src: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=80",
-      alt: "Pratique de Pilates au sol",
-      category: "Mat Pilates"
+      src: "/lovable-uploads/3.jpg",
+      alt: "Cours de Pilates en groupe",
+      category: "Cours en groupe"
     },
+    
     {
-      src: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80",
-      alt: "Intérieur moderne du studio",
-      category: "Studio"
-    }
+      src: "/lovable-uploads/2.jpg",
+      alt: "Cours de Pilates en groupe",
+      category: "Cours en groupe"
+    },
+
+     {
+      src: "/lovable-uploads/11.jpg",
+      alt: "Cours de Pilates en groupe",
+      category: "Cours en groupe"
+    },
+
+    {
+      src: "/lovable-uploads/6.jpg",
+      alt: "Cours de Pilates en groupe",
+      category: "Cours en groupe"
+    },
+   
+    
+    
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

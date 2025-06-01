@@ -35,7 +35,7 @@ const About = () => {
           <div className="animate-slide-in-right">
             <div className="relative">
               <img 
-                src="/lovable-uploads/f18486a3-e470-4da4-8c60-624a4d0d0398.png" 
+                src="/lovable-uploads/1.jpg" 
                 alt="Cours de Pilates en cours" 
                 className="rounded-lg shadow-2xl w-full h-[500px] object-cover"
               />
